@@ -14,7 +14,7 @@ html {
 
 .banner {
   position: relative;
-  background-color: #333;
+  background-color: #e2e2e2;
   min-height: 25rem;
   overflow: hidden;
 }
@@ -65,9 +65,9 @@ html {
 
 @media (prefers-reduced-motion) {
 
-    img {
-      animation: none;
-    }
+  img {
+    animation: none;
+  }
 
 }
 
@@ -76,13 +76,12 @@ html {
   body {
     background-color: #111;
   }
-}
 
-/**
- * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+  .banner {
+    opacity: .5;
+    color: #333;
+  }
+
+}
 
 /* stylelint-enable */
